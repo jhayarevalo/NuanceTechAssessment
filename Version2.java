@@ -6,6 +6,7 @@
  * 
  * This method works almost the same way as Version1 but duplicate words do not get added because of the tree data structure
  * This search method is more efficient than searching through an array list because it has O(log(n))
+ * To improve this method for larger input, we can use an AVL tree structure so that the tree is balanced and search will be faster.
  */
 
 import java.io.FileInputStream;
@@ -71,3 +72,4 @@ public class Version2 {
 	}
 
 }
+
